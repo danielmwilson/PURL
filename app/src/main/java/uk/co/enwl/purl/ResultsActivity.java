@@ -39,13 +39,13 @@ public class ResultsActivity extends AppCompatActivity {
             for (int j = 0; j < 40; j++) {
                 k++;
                 if (GridArray[i][j] == 0) {
-                    bPoleImage[k] = Color.WHITE;
+                    bPoleImage[k] = getResources().getColor(R.color.colorPoleBackground);
                 } else if (GridArray[i][j] == 2) {
-                    bPoleImage[k] = Color.DKGRAY;
+                    bPoleImage[k] = getResources().getColor(R.color.colorPoleRim);
                 } else if (GridArray[i][j] == -1) {
-                    bPoleImage[k] = Color.BLACK;
+                    bPoleImage[k] = getResources().getColor(R.color.colorPoleRotWood);
                 } else if (GridArray[i][j] == 1) {
-                    bPoleImage[k] = Color.LTGRAY;
+                    bPoleImage[k] = getResources().getColor(R.color.colorPoleGoodWood);
                 }
             }
         }

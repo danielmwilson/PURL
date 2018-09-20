@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="uk.co.enwl.purl.ResultsActivity">
-
     <RelativeLayout
-        android:layout_width="370dp"
-        android:layout_height="495dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent">">
+
 
         <TextView
             android:id="@+id/textView"
@@ -46,6 +46,8 @@
             android:layout_marginTop="31dp"
             app:srcCompat="@android:color/background_light" />
 
-    </RelativeLayout>
+
+
+        </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
