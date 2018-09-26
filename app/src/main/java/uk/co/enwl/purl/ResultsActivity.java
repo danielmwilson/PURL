@@ -1,10 +1,14 @@
 package uk.co.enwl.purl;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -57,7 +61,20 @@ public class ResultsActivity extends AppCompatActivity {
 
         ImageView imgPole = findViewById(R.id.imageView);
 
-        imgPole.setImageBitmap(Bitmap.createScaledBitmap(bmpPole,200,200,false));
+        int intImgSize=200;
 
+        imgPole.setImageBitmap(Bitmap.createScaledBitmap(bmpPole,intImgSize,intImgSize,false));
+
+    }
+
+    public void onCopy(View view)
+    {
+        TextView txtStrength = findViewById(R.id.txtResidualStrength);
+
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        ClipData clip = ClipData.newPlainText("simple text", txtStrength.getText());
+
+
+        clipboard.setPrimaryClip(clip);
     }
 }

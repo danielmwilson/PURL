@@ -36,18 +36,39 @@
             android:gravity="center|center"
             tools:layout_editor_absoluteX="68dp"
             tools:layout_editor_absoluteY="89dp" />
-
-        <ImageView
-            android:id="@+id/imageView"
+        <Button
+            android:id="@+id/cmdCopy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="28dp"
+            android:onClick="onCopy"
+            android:text="Copy" />
+        <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txtResidualStrength"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="Pole Cross-section:" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_below="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="31dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             app:srcCompat="@android:color/background_light" />
 
 
 
-        </RelativeLayout>
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
