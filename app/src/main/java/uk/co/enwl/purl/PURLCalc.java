@@ -41,15 +41,18 @@ public class PURLHarness
 // Calculation class
 public class PURLCalc
 {
+    public double ResidStrength;
+    public int[][] GridArray;
+
 
     public PURLCalc()
     {
 
     }
 
-    public static int[][] CalcGrid(boolean[] PURLT1, boolean[] PURLT2, boolean[] PURLT3)
+    public int[][] CalcGrid(boolean[] PURLT1, boolean[] PURLT2, boolean[] PURLT3)
     {
-        int[][] GridArray = new int[40][40];
+        GridArray = new int[40][40];
         double x, y, xT2, yT2, xT3, yT3;
         int[] squareStatus = new int[3];
 
@@ -109,7 +112,7 @@ public class PURLCalc
         return GridArray;
     }
 
-    private static int calcSquareStatus(double x, double y, boolean[] PURL)
+    private int calcSquareStatus(double x, double y, boolean[] PURL)
     {
         double alpha;
         int status;
@@ -176,7 +179,7 @@ public class PURLCalc
 
     }
 
-    public static double calcResidualStrength(int [][] GridArray)
+    public double calcResidualStrength(int [][] GridArray)
     {
         int i,j;
         double x,y;
@@ -327,6 +330,8 @@ public class PURLCalc
             MINSGTHSECTION = MINSGTHY;
             ANGMINSGTHSECTION = ANGMINSGTHY;
         }
+
+        ResidStrength=MINSGTHSECTION;
 
         return MINSGTHSECTION;
     }

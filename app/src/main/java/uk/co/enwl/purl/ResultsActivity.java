@@ -14,6 +14,8 @@ import android.widget.TextView;
 
 public class ResultsActivity extends AppCompatActivity {
 
+    private PURLCalc myPURL;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +26,7 @@ public class ResultsActivity extends AppCompatActivity {
         boolean[] PURLT2=b.getBooleanArray("PURL2");
         boolean[] PURLT3=b.getBooleanArray("PURL3");
 
-        PURLCalc myPURL = new PURLCalc();
+        myPURL = new PURLCalc();
 
         int[][] GridArray = myPURL.CalcGrid(PURLT1,PURLT2,PURLT3);
 
@@ -69,10 +71,8 @@ public class ResultsActivity extends AppCompatActivity {
 
     public void onCopy(View view)
     {
-        TextView txtStrength = findViewById(R.id.txtResidualStrength);
-
         ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
-        ClipData clip = ClipData.newPlainText("simple text", txtStrength.getText());
+        ClipData clip = ClipData.newPlainText("simple text", String.format("%.1f",myPURL.ResidStrength));
 
 
         clipboard.setPrimaryClip(clip);
