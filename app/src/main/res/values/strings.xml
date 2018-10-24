@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">ENWL PURL Calculator</string>
     <string name="title_activity_results">ResultsActivity</string>
+    <string name="cmdCalculate_Caption">Calculate</string>
+    <string name="PURL_NoLight">X</string>
+    <string name="PURL_Light">O</string>
+    <string name="purl_t3_results">PURL T3 Results</string>
+    <string name="purl_t2_results">PURL T2 Results</string>
+    <string name="purl_t1_results">PURL T1 Results</string>
+    <string name="residual_strength">Residual Strength:</string>
+    <string name="default_strength"><![CDATA[<N/A>]]></string>
+    <string name="cmdCopy_Caption">Copy</string>
+    <string name="pole_cross_section_title">Pole Cross-section:</string>
+    <string name="cross_section_description">Cross-section image of pole showing areas of rot</string>
 </resources>

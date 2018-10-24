@@ -35,7 +35,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PURL T1 Results" />
+            android:text="@string/purl_t1_results" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,27 +48,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT1-2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT1-3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
 
             <ToggleButton
@@ -76,54 +73,48 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT1-5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT1-6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT1-7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT1-8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT1-9"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
         </LinearLayout>
 
@@ -134,7 +125,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="bottom|left"
-            android:text="PURL T2 Results" />
+            android:text="@string/purl_t2_results" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -147,81 +138,72 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT2-2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT2-3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT2-4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT2-5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT2-6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT2-7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT2-8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT2-9"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
         </LinearLayout>
 
@@ -232,7 +214,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="bottom|left"
-            android:text="PURL T3 Results" />
+            android:text="@string/purl_t3_results" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -245,81 +227,72 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT3-2"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT3-3"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT3-4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT3-5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT3-6"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT3-7"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT3-8"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
             <ToggleButton
                 android:id="@+id/PURLT3-9"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="ToggleButton"
-                android:textOff="X"
-                android:textOn="O" />
+                android:textOff="@string/PURL_NoLight"
+                android:textOn="@string/PURL_Light" />
 
         </LinearLayout>
 
@@ -332,7 +305,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:onClick="onCalculate"
-        android:text="Calculate"
+        android:text="@string/cmdCalculate_Caption"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="0dp"
         android:layout_gravity="bottom|center"/>

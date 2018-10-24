@@ -11,8 +11,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">">
-
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/textView"
@@ -22,7 +21,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="20dp"
             android:layout_marginStart="20dp"
-            android:text="Residual Strength:" />
+            android:text="@string/residual_strength" />
 
         <TextView
             android:id="@+id/txtResidualStrength"
@@ -31,8 +30,8 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/textView"
             android:layout_marginTop="20dp"
-            android:text="59%"
-            android:textSize="50dp"
+            android:text="@string/default_strength"
+            android:textSize="50sp"
             android:gravity="center|center"
             tools:layout_editor_absoluteX="68dp"
             tools:layout_editor_absoluteY="89dp" />
@@ -44,7 +43,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="28dp"
             android:onClick="onCopy"
-            android:text="Copy" />
+            android:text="@string/cmdCopy_Caption" />
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
@@ -52,7 +51,7 @@
             android:layout_below="@+id/txtResidualStrength"
             android:layout_marginTop="10dp"
             android:layout_marginStart="20dp"
-            android:text="Pole Cross-section:" />
+            android:text="@string/pole_cross_section_title" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -64,6 +63,7 @@
             android:layout_marginTop="0dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
+            android:contentDescription="@string/cross_section_description"
             app:srcCompat="@android:color/background_light" />
 
 
